@@ -1,0 +1,34 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Asil Arslan
+description:      'I m a software engineer based near Ankara, Turkey. I like solving problems with code.'
+url:              http://asilarslan.me
+baseurl:          /
+logo:             /content/images/me.jpg
+
+author:
+  name:           'Asil Arslan'
+  url:            https://plus.google.com/+AsilArslan
+
+paginate:         5
+
+disqus_shortname: asilarslan
+
+github:
+  repo:           https://github.com/asilarslan/asilarslan.github.io
+
+gems:
+  - jekyll-sitemap
+
+twitter: '@asilarslan_'
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
