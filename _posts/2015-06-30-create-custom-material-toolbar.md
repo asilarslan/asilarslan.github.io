@@ -4,7 +4,7 @@ title: Create Custom Material Toolbar
 date: '2015-06-30 16:28:02'
 ---
 
-Android Material Design is the most powerful design i have seen. And we can custom material actinbar with toolbar. First of all, we must create `tool_bar.xml` in layout folder.
+Android Material Design is the most powerful design i have seen. And we can create custom material actinbar with toolbar. First of all, we must create `tool_bar.xml` in layout folder.
 
 {% highlight xml %}
 <span style="font-size: x-small;"><?xml version="1.0" encoding="utf-8"?>
