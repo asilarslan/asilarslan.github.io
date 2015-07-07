@@ -2,6 +2,7 @@
 layout: post
 title: CityNom v1.0
 date: '2015-07-01 16:30:02'
+cover_image: '/content/images/2015/4/citynom.png'
 ---
 
 <p>CityNom v1.0 has been released onto Android Market. The release has added a few small features into the application:</p>
