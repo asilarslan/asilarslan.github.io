@@ -407,4 +407,18 @@ a.sidebar-nav-item:focus {
 
 .mail a:hover {
   color: #4DB6AC;
-  border-color: #4DB6AC; }  
+  border-color: #4DB6AC; } 
+  
+  
+.form-stacked label,
+.form-stacked .input,
+.form-stacked .select {
+  display: block;
+  width: 100%;
+}
+.form-stacked .input,
+.form-stacked .select,
+.form-stacked .radio,
+.form-stacked .checkbox {
+  margin-bottom: 1rem;
+}
