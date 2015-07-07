@@ -14,7 +14,7 @@ date: '2015-07-01 16:30:02'
   CityNom aims to be a global network easing people life while bringing them information on the things going on around them. It is easy and safe to use. There is only a tap of a button separating you from whispers of your city. Welcome!
 </div>
 
-![Toolbar](/content/images/2014/4/intro1.png)
+![Toolbar](/content/images/2015/4/intro1.png)
 
 <ul>
 <li>What is going on around you</li>
