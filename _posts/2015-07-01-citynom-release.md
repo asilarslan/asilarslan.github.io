@@ -1,52 +1,26 @@
 ---
 layout: post
-title: CityNom Release
-date: '2015-06-30 16:30:02'
+title: CityNom v1.0
+date: '2015-07-01 16:30:02'
 ---
 
-Android Material Design is the most powerful design i have seen. And we can create custom material actinbar with toolbar. First of all, we must create `tool_bar.xml` in layout folder.
+<p>CityNom v1.0 has been released onto Android Market. The release has added a few small features into the application:</p>
 
-{% highlight xml %}
-<span style="font-size: x-small;"><?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/ColorPrimary"
-    android:elevation="4dp"
- 
-    >
- 
-</android.support.v7.widget.Toolbar>
- 
-</span>
-{% endhighlight %}
+<div class="message">
+  CityNom offers you a unique interactive and local platform providing you with updates in your surroundings and keeps you in touch with your friends if you choose so.
 
-After we include this toolbar activity to my layout
+  Do you want to know whether there is heavy traffic on your way to work, which bar in the area offers the best drinks for the most affordable prices and whether there is something going on around you what you definitely should not miss? Have you just witnessed an armed robbery and you want to warn people around you but you do not dare to scream? Download CityNom now and check all of it out immediately!
 
-{% highlight xml %}
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+  CityNom aims to be a global network easing people life while bringing them information on the things going on around them. It is easy and safe to use. There is only a tap of a button separating you from whispers of your city. Welcome!
+</div>
 
-    <include layout="@layout/tool_bar" />
+![Toolbar](/content/images/2014/4/intro1.png)
 
-</RelativeLayout>
-{% endhighlight %}
+<ul>
+<li>What is going on around you</li>
+<li>Comment other user post</li>
+<li>View user profiles</li>
+<li>Notification systems</li>
+</ul>
 
-After we get this toolbar to my activity
-
-{% highlight java %}
-private Toolbar toolbar;                              // Declaring the Toolbar Object
- 
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-super.onCreate(savedInstanceState);
-  setContentView(R.layout.activity_main);
- 
-  toolbar = (Toolbar) findViewById(R.id.tool_bar); // Attaching the layout to the toolbar object
-  setSupportActionBar(toolbar);                   // Setting toolbar as the ActionBar with setSupportActionBar() call
- 
-}
-{% endhighlight %}
-
-We can find other refence from https://developer.android.com/reference/android/widget/Toolbar.html
+Let us know how you get on. If you have any ideas for future versions of CityNom, please submit them here: http://citynom.com
