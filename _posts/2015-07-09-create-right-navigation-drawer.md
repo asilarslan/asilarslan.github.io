@@ -8,7 +8,7 @@ Android Left Navigation Drawer useful for navigate between activities, fragments
 
 If you create default left navigation drawer, check [Android Developer Documents](https://developer.android.com/training/implementing-navigation/nav-drawer.html). Now we create right navigation drawer. First of we create default left navigation activity, when opening Android Studio.
 
-After we apply ListVİew `android:layout_gravity="right"`
+After we apply ListView `android:layout_gravity="right"` in your main layout
 
 {% highlight xml %}
 <android.support.v4.widget.DrawerLayout
