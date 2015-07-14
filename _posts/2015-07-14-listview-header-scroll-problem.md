@@ -6,7 +6,7 @@ date: '2015-07-09 23:16:00'
 
 When i scroll on header with listview. Listview scroll header background. But i want scroll with header. We add header view for listviews header for scrolling.
 
-{% highlight java %}
+{% highlight xml %}
 <LinearLayout>
   <LinearLayout>
   <!--Header-->
@@ -18,7 +18,7 @@ When i scroll on header with listview. Listview scroll header background. But i 
 
 We convert 2 view, such as;
 
-{% highlight java %}
+{% highlight xml %}
 <LinearLayout>
   <LinearLayout>
   <!--Header-->
@@ -27,7 +27,7 @@ We convert 2 view, such as;
 
 {% endhighlight %}
 
-{% highlight java %}
+{% highlight xml %}
 <LinearLayout>
   <ListView/>
 <LinearLayout/>
