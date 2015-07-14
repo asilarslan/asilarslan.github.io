@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ListView Header Scroll Problem in Android
-date: '2015-07-09 23:16:00'
+date: '2015-07-16 23:16:00'
 ---
 
 When i scroll on header with listview. Listview scroll header background. But i want scroll with header. We add header view for listviews header for scrolling.
