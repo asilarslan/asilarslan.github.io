@@ -6,6 +6,7 @@ date: '2015-07-16 23:16:00'
 
 When i scroll on header with listview. Listview scroll header background. But i want scroll with header. We add header view for listviews header for scrolling.
 
+`activity_post_detail.xml`
 {% highlight xml %}
 <LinearLayout>
   <LinearLayout>
@@ -17,7 +18,7 @@ When i scroll on header with listview. Listview scroll header background. But i 
 {% endhighlight %}
 
 We convert 2 view, such as;
-
+`view_post.xml`
 {% highlight xml %}
 <LinearLayout>
   <LinearLayout>
@@ -26,7 +27,7 @@ We convert 2 view, such as;
 <LinearLayout/>
 
 {% endhighlight %}
-
+`activity_post_detail.xml`
 {% highlight xml %}
 <LinearLayout>
   <ListView/>
