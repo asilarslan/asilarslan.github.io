@@ -4,6 +4,7 @@ title: About
 ---
 
 Hello, my name is Asil Arslan. I’m passionate about software engineering and android. I'm build mobile application throwing in PHP, Java and Objective C into the mix.  I like solving problems with code. I hope you find the content of this blog very useful. 
+
 You can find out more about my projects and contributions at [Github](http://github.com/asilarslan) or view my CV at [StackOverflow Careers](http://careers.stackoverflow.com/asilarslan).
 
 ## Education
