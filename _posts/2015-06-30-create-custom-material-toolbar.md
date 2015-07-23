@@ -49,4 +49,6 @@ super.onCreate(savedInstanceState);
 }
 {% endhighlight %}
 
+> If you need default actionbar height, so using `android:layout_marginTop="?android:attr/actionBarSize"`in your layout file.
+
 We can find other refence from https://developer.android.com/reference/android/widget/Toolbar.html
