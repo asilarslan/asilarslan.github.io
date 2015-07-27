@@ -89,5 +89,5 @@ Finally open TableViewController.m and do the below changes to achieve the swipe
 {% endhighlight %}
 
 Run the project and test it. You should able see the swipe refresh animation on app launch and list view updated each time you swipe down it.
-![Refresh1](/content/images/2015/7/refresh1.png)
-![Refresh2](/content/images/2015/7/refresh2.png)
+![Refresh1](/content/images/2015/7/refresh2.png)
+![Refresh2](/content/images/2015/7/refresh1.png)
