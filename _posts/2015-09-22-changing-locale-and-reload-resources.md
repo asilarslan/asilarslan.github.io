@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Changing locale and reload resources
-date: '2013-09-22 00:00:00'
+date: '2015-09-22 01:00:00'
 ---
 When the language is switched, You would like all the textviews etc to change language immediately
 {% highlight java %}
