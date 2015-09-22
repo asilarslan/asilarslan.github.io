@@ -9,31 +9,28 @@ When the language is switched, You would like all the textviews etc to change la
 {% highlight java %}
 public void setLocale(String lang) {
 
-        Locale locale= new Locale(lang);
-        Locale.setDefault(locale);
+   Locale locale= new Locale(lang);
+   Locale.setDefault(locale);
 
-        Configuration config = new Configuration();
-        config.locale = locale;
+   Configuration config = new Configuration();
+   config.locale = locale;
 
-        Resources res = getResources();
-        DisplayMetrics dm = res.getDisplayMetrics();
-        Configuration conf = res.getConfiguration();
-        conf.locale = locale;
-        res.updateConfiguration(conf, dm);
+   Resources res = getResources();
+   DisplayMetrics dm = res.getDisplayMetrics();
+   Configuration conf = res.getConfiguration();
+   conf.locale = locale;
+   res.updateConfiguration(conf, dm);
+    
+   onConfigurationChanged(conf);
 
-        onConfigurationChanged(conf);
+}
 
-    }
+@Override
+public void onConfigurationChanged(Configuration newConfig)
+{
+    initPager();//refresh textviews
+    
+    super.onConfigurationChanged(newConfig);
 
-
-    @Override
-    public void onConfigurationChanged(Configuration newConfig)
-    {
-        initPager();
-        initSplashMenu();
-        initLangButton();
-
-        super.onConfigurationChanged(newConfig);
-
-    }
+}
 {% endhighlight %}
