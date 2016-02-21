@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quiz App v1.0
-date: '2016-02-21 12:04:02'
+date: '2016-02-21 01:04:02'
 cover_image: '/content/images/2016/2/ozellik.png'
 ---
 
