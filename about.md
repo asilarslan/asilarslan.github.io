@@ -12,4 +12,5 @@ BSc, Computer Engineering, June 2015
 * Gazi University, Ankara, Turkey
 
 ## Accomplishments
-* Gazi TTO Final Year Project Competition 2015, 2nd - Mevlana [Gazi TTO](http://gazitto.com/dh/2015-yili-lisans-bitirme-projeleri-yarismasi-ka/252)
+* Gazi TTO Senior Project for BSc Competition 2015, 2nd - Mevlana [Gazi TTO](http://gazitto.com/dh/2015-yili-lisans-bitirme-projeleri-yarismasi-ka/252)
+* Tubitak Senior Project for BSc Competition 2015, 2nd - Mevlana [Tubitak](http://mf-bm.gazi.edu.tr/posts/view/title/ogrencilerimiz-tubitak-yarismasinda-dereceye-girdiler-139921)
