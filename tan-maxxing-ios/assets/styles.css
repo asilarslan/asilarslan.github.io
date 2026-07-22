@@ -1,0 +1,147 @@
+:root {
+  color-scheme: light dark;
+  --accent: #ff665c;
+  --accent-2: #118fa0;
+  --bg: #fff7ef;
+  --text: #181716;
+  --muted: #625d59;
+  --card: #ffffff;
+  --line: #eaded6;
+  --soft: #fff0ec;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #090b0f;
+    --text: #fbf7f2;
+    --muted: #b9b0aa;
+    --card: #15181d;
+    --line: #30343b;
+    --soft: #241715;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--text);
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 44px 20px 72px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.brand,
+.navlinks a,
+a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+}
+
+.mark {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: white;
+  font-size: 0.78rem;
+}
+
+.navlinks {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+article {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 28px;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.05;
+  margin: 0 0 10px;
+}
+
+h2 {
+  margin-top: 32px;
+  font-size: 1.25rem;
+}
+
+h3 {
+  margin-top: 24px;
+  font-size: 1.05rem;
+}
+
+p,
+li {
+  color: var(--muted);
+}
+
+.lead {
+  font-size: 1.08rem;
+}
+
+.meta,
+.eyebrow {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.eyebrow {
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.panel,
+.notice {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--soft);
+}
+
+.notice strong {
+  color: var(--text);
+}
+
+@media (max-width: 620px) {
+  main { padding: 28px 14px 56px; }
+  article { padding: 22px; }
+  .nav { align-items: flex-start; flex-direction: column; }
+}
