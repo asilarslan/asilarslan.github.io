@@ -2,7 +2,7 @@
 layout: reply
 title: Privacy Policy
 description: How Reply handles screenshots, submitted text, generated replies, service data, retention, and privacy rights.
-permalink: /privacy-policy/
+permalink: /reply/privacy-policy/
 ---
 
 # Reply Privacy Policy

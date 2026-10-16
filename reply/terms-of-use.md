@@ -2,7 +2,7 @@
 layout: reply
 title: Terms of Use
 description: The terms governing use of the Reply iOS app, AI suggestions, subscriptions, and related services.
-permalink: /terms-of-use/
+permalink: /reply/terms-of-use/
 ---
 
 # Reply Terms of Use

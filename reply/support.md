@@ -2,7 +2,7 @@
 layout: reply
 title: Support
 description: Setup help, frequently asked questions, subscription guidance, and contact information for Reply.
-permalink: /support/
+permalink: /reply/support/
 ---
 
 # Reply Support

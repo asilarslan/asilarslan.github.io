@@ -2,7 +2,7 @@
 layout: reply
 title: Privacy Choices
 description: Learn how to access, delete, or otherwise exercise your privacy rights for Reply.
-permalink: /privacy-choices/
+permalink: /reply/privacy-choices/
 ---
 
 # Reply Privacy Choices
