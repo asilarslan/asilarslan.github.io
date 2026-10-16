@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#100d1d" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f7f5fc" media="(prefers-color-scheme: light)">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://asilarslan.github.io/reply/assets/app-icon.png">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="/reply/assets/app-icon.png">
+    <link rel="apple-touch-icon" href="/reply/assets/app-icon.png">
+    <link rel="stylesheet" href="/reply/assets/style.css">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}Reply</title>
+  </head>
+  <body class="{% if page.body_class %}{{ page.body_class }}{% else %}legal-page{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="/reply/" aria-label="Reply home">
+          <img src="/reply/assets/app-icon.png" width="42" height="42" alt="">
+          <span>Reply</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="/reply/#features">Features</a>
+          <a href="/reply/privacy-policy/">Privacy</a>
+          <a href="/reply/support/">Support</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="{% if page.body_class == 'home-page' %}home-content{% else %}shell legal-content{% endif %}">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand footer-brand" href="/reply/">
+            <img src="/reply/assets/app-icon.png" width="38" height="38" alt="">
+            <span>Reply</span>
+          </a>
+          <p>Find the right words, right when you need them.</p>
+        </div>
+        <div class="footer-links" aria-label="Legal and support links">
+          <a href="/reply/privacy-policy/">Privacy Policy</a>
+          <a href="/reply/privacy-choices/">Privacy Choices</a>
+          <a href="/reply/terms-of-use/">Terms of Use</a>
+          <a href="/reply/support/">Support</a>
+        </div>
+        <p class="copyright">© 2026 Asil Arslan. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
