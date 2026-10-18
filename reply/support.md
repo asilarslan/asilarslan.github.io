@@ -57,7 +57,7 @@ Apple handles App Store billing and refund decisions. Visit <https://reportaprob
 
 ### How do I make a privacy request?
 
-Use **Settings → Delete My Data**, visit <https://asilarslan.github.io/reply/privacy-choices/>, or email support@asilarslan.com. Tell us the request you want to make and provide only the information needed to locate the relevant installation or transaction. Read the full policy at <https://asilarslan.github.io/reply/privacy-policy/>.
+Visit <https://asilarslan.github.io/reply/privacy-choices/> or email support@asilarslan.com. Tell us the request you want to make and provide only the information needed to locate the relevant installation or transaction. Read the full policy at <https://asilarslan.github.io/reply/privacy-policy/>.
 
 ### Which languages are supported?
 

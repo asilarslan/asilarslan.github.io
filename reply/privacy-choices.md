@@ -13,9 +13,9 @@ You control what content you submit to Reply. This page explains the controls av
 
 ## Delete data linked to your installation
 
-Open **Reply → Settings → Delete My Data**. This erases local reply history, resets AI-processing consent, and requests deletion of the installation record, retry cache, audit metadata, and rate-limit associations held by the Reply proxy.
+Deleting the app removes its local reply history and AI-processing consent from that device, subject to device backups you control. To request deletion of an installation record, retry cache, audit metadata, or rate-limit associations held by the Reply proxy, email [support@asilarslan.com](mailto:support@asilarslan.com?subject=Reply%20Privacy%20Request) with the subject **Reply Privacy Request**.
 
-Deleting the app removes its local data from that device, subject to device backups you control, but does not cancel an App Store subscription. Manage subscriptions in **iOS Settings → your name → Subscriptions**.
+Deleting the app does not cancel an App Store subscription. Manage subscriptions in **iOS Settings → your name → Subscriptions**.
 
 ## Control what you submit
 
@@ -45,7 +45,7 @@ Reply does not sell personal information, share it for cross-context behavioral 
 
 ## AI processing consent
 
-Before the first AI request, Reply explains that reviewed conversation text, context, and settings will be sent through our proxy to OpenAI to generate a result. You can decline and continue using non-AI areas of the app. After giving permission, use **Settings → Delete My Data** to withdraw it for future requests; the app will ask again before a later AI request.
+Before the first AI request, Reply explains that reviewed conversation text, context, and settings will be sent through our proxy to OpenAI to generate a result. You can decline and continue using non-AI areas of the app. To withdraw consent, stop submitting AI requests and email [support@asilarslan.com](mailto:support@asilarslan.com?subject=Reply%20Privacy%20Request). Deleting and reinstalling the app also resets the local consent choice.
 
 Withdrawal does not affect processing already completed lawfully. See the [Privacy Policy](/reply/privacy-policy/) for processing, retention, international transfer, and subprocessor details.
 

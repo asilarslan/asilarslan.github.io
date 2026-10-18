@@ -80,7 +80,7 @@ We keep information only as long as needed for the purposes above, subject to le
 | Support correspondence | Up to 24 months after the request is resolved, unless law or an active dispute requires longer |
 | Residual encrypted backups after deletion | If production backups are enabled, they are rotated out within 30 days and are not restored except for disaster recovery |
 
-Content stored only on your device remains until you remove it in the app or delete the app, subject to device backups you control. Use **Settings → Delete My Data** to erase local history and request immediate deletion of the installation record, retry cache, audit metadata, and rate-limit associations held by our proxy. Removing the app alone may not erase information lawfully retained by processors. To request access or deletion, visit <https://asilarslan.github.io/reply/privacy-choices/> or email support@asilarslan.com. We may ask for limited information to verify and locate the relevant installation or transaction.
+Content stored only on your device remains until you delete the app, subject to device backups you control. To request deletion of an installation record, retry cache, audit metadata, or rate-limit associations held by our proxy, visit <https://asilarslan.github.io/reply/privacy-choices/> or email support@asilarslan.com. Removing the app alone may not erase information lawfully retained by processors. We may ask for limited information to verify and locate the relevant installation or transaction.
 
 ## 7. Your choices and rights
 
