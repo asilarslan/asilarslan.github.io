@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;background:#0b0a09;color:#e6dcc2;font:17px/1.65 Georgia,"Times New Roman",serif}
+a{color:#e8a54f}main{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+.nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;max-width:760px;margin:0 auto;padding:18px 20px;border-bottom:1px solid #2a2622}
+.brand{display:flex;align-items:center;gap:10px;color:#e6dcc2;text-decoration:none;font-family:"Courier New",monospace;letter-spacing:.06em;font-weight:bold}
+.brand img{width:34px;height:34px;border-radius:8px}.navlinks a{margin-left:16px;font-family:"Courier New",monospace;font-size:14px;color:#9e998a;text-decoration:none}
+.navlinks a:hover{color:#e8a54f}h1,h2{font-family:"Courier New",monospace;letter-spacing:.04em}h1{font-size:28px;margin:18px 0 4px}
+h2{font-size:18px;color:#e8a54f;margin-top:30px}.lead{font-size:19px}.muted{color:#9e998a;font-size:14px}
+.hero{width:100%;border-radius:6px;margin:18px 0;border:1px solid #2a2622}hr{border:0;border-top:1px solid #2a2622;margin:36px 0}
+footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:#6f6a5e;font-size:13px}
