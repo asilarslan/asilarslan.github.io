@@ -1,0 +1,10 @@
+:root { --bg: #f6f3ee; --fg: #2b2118; --muted: #7a6a5a; --accent: #c2410c; }
+@media (prefers-color-scheme: dark) { :root { --bg: #14181f; --fg: #ece6dd; --muted: #a59a8c; --accent: #fb923c; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 "Trebuchet MS", "Segoe UI", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 18px 64px; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 1.2em 0 0.2em; }
+h2 { font-size: 1.2rem; margin-top: 1.8em; }
+a { color: var(--accent); }
+.muted, .lang { color: var(--muted); }
+.mail { font-weight: bold; user-select: all; }
+hr { border: 0; border-top: 1px solid var(--muted); opacity: 0.4; margin: 48px 0; }
